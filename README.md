@@ -13,6 +13,7 @@ A super inaccurate simulation of the solar system in Rust with Bevy.
 
 ![solar system 1](screenshots/1.png)
 ![solar system 2](screenshots/2.png)
+![solar system 3](screenshots/3.png)
 
 ---
 
