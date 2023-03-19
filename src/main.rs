@@ -7,7 +7,9 @@
 use bevy::{prelude::*, window::PrimaryWindow};
 
 mod components;
-use components::*;
+mod systems;
+
+use systems::*;
 
 fn main() {
     App::new()
@@ -22,7 +24,7 @@ fn main() {
             }),
             ..default()
         }))
-        .insert_resource(ClearColor(Color::rgb(0.0, 0.0, 0.0)))
+        .insert_resource(ClearColor(Color::rgb(0., 0., 0.)))
         .add_startup_system(spawn_system)
         .add_startup_system(spawn_camera)
         .add_system(rotate_sun)
