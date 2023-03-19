@@ -9,6 +9,10 @@ A super inaccurate simulation of the solar system in Rust with Bevy.
 
 ---
 
+### **Demo**: [Solar System](https://afaan.dev/solar-system)
+
+---
+
 ## Screenshots
 
 ![solar system 1](screenshots/1.png)
