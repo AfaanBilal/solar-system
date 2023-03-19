@@ -16,8 +16,9 @@ fn main() {
         .add_plugins(DefaultPlugins.set(WindowPlugin {
             primary_window: Some(Window {
                 title: "Solar System".into(),
-                resolution: (2000., 1400.).into(),
-                fit_canvas_to_parent: true,
+                resolution: (1800., 1000.).into(),
+                canvas: Some("canvas".to_string()),
+                fit_canvas_to_parent: false,
                 prevent_default_event_handling: false,
                 resizable: false,
                 ..default()
